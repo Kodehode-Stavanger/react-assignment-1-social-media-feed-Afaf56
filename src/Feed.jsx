@@ -5,6 +5,7 @@ import licon from "./assets/licon.jpg";
 function Feed() {
   return (
     <>
+      <h2>Social Media Feed</h2>
       <Posts posts={posts} licon={licon} />
     </>
   );
